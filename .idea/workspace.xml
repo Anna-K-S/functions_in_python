@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1d03a78-b79e-4def-83d2-2c87425498f1" name="Changes" comment="_">
-      <change afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+    <list default="true" id="d1d03a78-b79e-4def-83d2-2c87425498f1" name="Changes" comment="Built-in functions,creating functions,&quot;Doc string&quot;,functions without/with arguments, return Values of function.">
       <change afterPath="$PROJECT_DIR$/some_functions_and_operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="functions" />
+                    <option name="lastUsedInstant" value="1669857235" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1669857234" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -33,7 +58,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/р/IdeaProjects/Functions",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
@@ -57,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669857022660</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Built-in functions,creating functions,&quot;Doc string&quot;,functions without/with arguments, return Values of function.">
+      <created>1669857398524</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669857398524</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -76,7 +107,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="_" />
-    <option name="LAST_COMMIT_MESSAGE" value="_" />
+    <MESSAGE value="Built-in functions,creating functions,&quot;Doc string&quot;,functions without/with arguments, return Values of function." />
+    <option name="LAST_COMMIT_MESSAGE" value="Built-in functions,creating functions,&quot;Doc string&quot;,functions without/with arguments, return Values of function." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
