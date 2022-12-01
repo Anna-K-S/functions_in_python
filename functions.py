@@ -96,4 +96,3 @@ returned_value_3 = greeting_depends_on_gender('Ja', 'ale')
 
 print(returned_value_1, returned_value_2, returned_value_3)
 
-
