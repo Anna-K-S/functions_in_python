@@ -64,6 +64,7 @@ def is_hello_in_text(text):
 
 print(is_hello_in_text('Say hello everyone'))
 
+
 def hello_in_text(text):
     return 'hello' in text.lower()
 
@@ -77,6 +78,7 @@ def is_string_in_text(string, text):
 
 print(is_string_in_text('he', 'The apple'))
 print(is_string_in_text('one', 'Hello'))
+
 
 def greeting_depends_on_gender(name, gender):
     if gender == 'male':
@@ -95,5 +97,3 @@ returned_value_2 = greeting_depends_on_gender('Jane', 'female')
 returned_value_3 = greeting_depends_on_gender('Ja', 'ale')
 
 print(returned_value_1, returned_value_2, returned_value_3)
-
-
