@@ -29,7 +29,7 @@ def percent_of_product_with_args(percent, *args, ):
     return (prod / 100) * percent
 
 
-print(percent_of_product_with_args(10, 4, 5, 7, 8, 11, 5))
+print(percent_of_product_with_args(10, 4, 5, 7, 8, 11, 5, 4, 66, -5))
 
 
 def func_with_kwargs(**kwargs):
