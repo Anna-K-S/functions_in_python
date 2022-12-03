@@ -7,7 +7,7 @@ def ten_percent_of_pro(x, y):
 
 print(ten_percent_of_pro(10, 20))
 
-
+# *args
 def ten_percent_of_pro_with_args(*args):
     # можно помещать неограниченное количество агрументов
     # можно совершать любые действия
@@ -29,7 +29,7 @@ def percent_of_product_with_args(percent, *args, ):
     return (prod / 100) * percent
 
 
-print(percent_of_product_with_args(10, 4, 5, 7, 8, 11, 5))
+print(percent_of_product_with_args(10, 4, 5, 7, 8, 11, 5, 4, 66, -5))
 
 
 def func_with_kwargs(**kwargs):
@@ -40,17 +40,17 @@ func_with_kwargs(first=1, second=2, third=3)
 
 
 # **kwargs
-# возвращает oбъeкт dictionary
-# ключ в kwargs всегда должен быть словом
-# def hello_with_kwargs(**kwargs):
-#     if 'name' in kwargs:
-#         print('Hello! nice to meet you, {}'.format(kwargs['name']))
-#     else:
-#         print('Hello, what is your name?')
-#
-#
-# hello_with_kwargs(gender='male', age=24, name='Mike')
-# hello_with_kwargs(gender='male', age=24)
+возвращает oбъeкт dictionary
+ключ в kwargs всегда должен быть словом
+def hello_with_kwargs(**kwargs):
+    if 'name' in kwargs:
+        print('Hello! nice to meet you, {}'.format(kwargs['name']))
+    else:
+        print('Hello, what is your name?')
+
+
+hello_with_kwargs(gender='male', age=24, name='Mike')
+hello_with_kwargs(gender='male', age=24)
 def hello_with_greeting_and_kwargs(greeting, **kwargs):
     if 'name' in kwargs:
         print('{}! nice to meet you, {}'.format(greeting, kwargs['name']))
@@ -90,7 +90,7 @@ def is_item_here(item, *args):
 print(is_item_here(3, 55, 65, 'black', 'cat', -565))
 
 
-# 3
+# 3.1
 def your_favorite_color(my_color, **kwargs):
     if 'color' in kwargs:
         print('My favorite color is' + str(my_color) + ', but '
@@ -101,7 +101,7 @@ def your_favorite_color(my_color, **kwargs):
 
 your_favorite_color(' black', red=1, dog=2, cat=3, green=4, pig='green')
 
-
+# 3.2
 def your_favorite_color(my_color, **kwargs):
     if 'color' in kwargs:
         print('My favorite color is {}, but {} is also pretty good!'.format(my_color, kwargs['color']))
